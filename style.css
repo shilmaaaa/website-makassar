@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
 body {
   min-height: 300px;
-  font-family: "Poppins", sans-serif;
 }
 .jumbotron {
   padding-top: 6rem;
@@ -21,4 +24,44 @@ section #profil {
 }
 iframe {
   padding-left: 2px;
+}
+.bg {
+  background-image: url(logo/kubah.jpg);
+  height: 620px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+}
+.text {
+  text-align: center;
+  padding: 50px;
+  margin-top: 100px;
+  width: 1100px;
+  color: black;
+}
+.info {
+  text-align: justify;
+  width: auto;
+}
+button {
+  border: none;
+  background-color: #e38b29;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+button:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+  cursor: pointer;
+}
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid;
 }
