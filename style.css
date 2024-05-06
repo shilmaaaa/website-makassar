@@ -39,7 +39,7 @@ iframe {
   padding: 50px;
   margin-top: 100px;
   width: 1100px;
-  color: black;
+  color: aliceblue;
 }
 .info {
   text-align: justify;
@@ -58,10 +58,8 @@ button:hover {
   transition: 0.6s;
   cursor: pointer;
 }
-.glass {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 10px;
-  border: 1px solid;
+#komentar p {
+  text-align: justify;
+  color: black;
+  padding-top: 30px;
 }
