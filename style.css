@@ -26,7 +26,7 @@ iframe {
   padding-left: 2px;
 }
 .bg {
-  background-image: url(logo/kubah.jpg);
+  background-image: url(img/Pantai-Losari.jpg);
   height: 620px;
   position: relative;
   background-position: center;
@@ -47,7 +47,7 @@ iframe {
 }
 button {
   border: none;
-  background-color: #e38b29;
+  background-color: plum;
   padding: 12px;
   border-radius: 20px;
   font-weight: 400;
