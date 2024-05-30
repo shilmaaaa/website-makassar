@@ -246,7 +246,8 @@
             </div>
             <div class="row justify-content-center" style="text-align: justify;">
               <div class="col-md-5 justify-content-center">
-                <div class="form-floating mb-4">
+                  <form action="control/insertdata.php" method="POST">
+                  <div class="form-floating mb-4">
                   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                   <label for="floatingInput">Email address</label>
                 </div>
@@ -256,8 +257,9 @@
                 </div>
                 <br>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                  <button class="btn btn-primary" type="button">Kirim</button>
+                  <button class="btn btn-primary" type="button" name="submit">Kirim</button>
                 </div>
+                  </form>
                 <p class="display-6" style="text-align: center;">Website Makassar</p>
                 <small>&copy; Copyright by The Element Creators 2024. All rights reserved</small>
             </div>
