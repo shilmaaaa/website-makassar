@@ -27,7 +27,7 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"></li>
             <li class="nav-item">
-              <a class="nav-link" style="font-weight: 500" href="index.html">Home</a>
+              <a class="nav-link" style="font-weight: 500" href="index.php">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" style="font-weight: 500" href="#tradisional">Tentang</a>

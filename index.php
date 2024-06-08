@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="img/Preview.png">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow" style="background-color: whitesmoke;">
@@ -73,7 +72,7 @@
               <p class="info">
               Kota Makassar adalah Ibukota Provinsi Sulawesi Selatan klik tombol ini untuk membaca lebih tentang Kota Makassar
                </p>
-               <a href="sejarah.html"><button>Selengkapnya</button></a>
+               <a href="sejarah.php"><button>Selengkapnya</button></a>
             </div>
             </div>
         </div>
@@ -248,16 +247,16 @@
               <div class="col-md-5 justify-content-center">
                   <form action="control/insertdata.php" method="POST">
                   <div class="form-floating mb-4">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"name="email">
                   <label for="floatingInput">Email address</label>
                 </div>
                 <div class="form-floating">
-                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="komentar"></textarea>
                   <label for="floatingTextarea2">Comments</label>
                 </div>
                 <br>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                  <button class="btn btn-primary" type="button" name="submit">Kirim</button>
+                  <button class="btn btn-primary" type="submit" name="submit">Kirim</button>
                 </div>
                   </form>
                 <p class="display-6" style="text-align: center;">Website Makassar</p>
