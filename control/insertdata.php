@@ -10,8 +10,8 @@ include '../connect/config.php';
 
         // running query
         if (mysqli_query($conn, $query)) {
-             echo "Jawabanmu Terkirim, Makasih";
-            
+            echo "Jawabanmu Sudah Terkirim, Makasih";
+            exit();
         } else {
             echo "Error : " .$query. "<br/>" .mysqli_error($conn);
         }
