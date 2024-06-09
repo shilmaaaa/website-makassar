@@ -242,7 +242,7 @@
             </div>
             <div class="row justify-content-center" style="text-align: justify;">
               <div class="col-md-5 justify-content-center">
-                  <form action="control/insertdata.php" method="POST">
+                  <form action="control/insertdata.php" method="POST" enctype="multipart/form-data">
                   <div class="form-floating mb-4">
                   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"name="email">
                   <label for="floatingInput">Email address</label>

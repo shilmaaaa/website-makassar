@@ -10,7 +10,7 @@ include '../connect/config.php';
 
         // running query
         if (mysqli_query($conn, $query)) {
-            echo "Jawabanmu Sudah Terkirim, Makasih";
+            header("Location : ../projek_adminLTE/table_user.php");
             exit();
         } else {
             echo "Error : " .$query. "<br/>" .mysqli_error($conn);
