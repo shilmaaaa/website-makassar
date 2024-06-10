@@ -47,7 +47,7 @@ iframe {
 }
 button {
   border: none;
-  background-color: #8e7ab5;
+  background-color: #ffd1e3;
   padding: 12px;
   border-radius: 20px;
   font-weight: 400;
@@ -64,10 +64,10 @@ button:hover {
   padding-top: 30px;
 }
 #tradisional {
-  background-color: #8e7ab5;
+  background-color: #ffd1e3;
 }
 #profil {
-  background-color: #8e7ab5;
+  background-color: #ffd1e3;
 }
 #komentar {
   background-color: #fff;
