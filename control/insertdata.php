@@ -10,7 +10,7 @@ include '../connect/config.php';
 
         // running query
         if (mysqli_query($conn, $query)) {
-            header("Jawabanmu Terkirim Terima Kasih");
+            echo "Jawabanmu Terkirim Makasih Semuanyaa :)";
             exit();
         } else {
             echo "Error : " .$query. "<br/>" .mysqli_error($conn);
